@@ -7,7 +7,7 @@ import { useRef } from "react";
 
 export const ProductShowcase = () => {
   const appImage = useRef<HTMLImageElement>(null);
-  
+
   const { scrollYProgress } = useScroll({
     target: appImage,
     offset: ["start end", "end end"],
@@ -32,7 +32,7 @@ export const ProductShowcase = () => {
           style={{
             opacity: opacity,
             rotateX: rotateX,
-            transformPerspective: "800px",
+            transformPerspective: "1000px",
           }}
         >
           <Image

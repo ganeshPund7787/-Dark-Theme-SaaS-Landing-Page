@@ -33,7 +33,7 @@ export const Hero = () => {
             <motion.div
               className="absolute right-[476px] top-[130px] hidden sm:inline"
               drag
-              dragSnapToOrigin
+              // dragSnapToOrigin
             >
               <Image
                 src={cursorImage}
@@ -47,7 +47,7 @@ export const Hero = () => {
             <motion.div
               className="absolute top-[56px] left-[498px] hidden sm:inline"
               drag
-              dragSnapToOrigin
+              // dragSnapToOrigin
             >
               <Image
                 src={messageImage}
