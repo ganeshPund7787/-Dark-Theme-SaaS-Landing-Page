@@ -1,4 +1,5 @@
 "use client";
+//  this is for call-to action
 
 import helixImage from "@/assets/images/helix2.png";
 import emojiStarImage from "@/assets/images/emojistar.png";

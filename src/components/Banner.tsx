@@ -1,3 +1,5 @@
+// This is banner
+
 export const Banner = () => {
   return (
     <>
